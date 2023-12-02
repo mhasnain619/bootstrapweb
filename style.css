@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+}
+
+.NavImg {
+    width: 4rem;
+    height: 8vh;
+}
+
+
+.heading {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.heading h6 {
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.heading p {
+    color: gray;
+}
+
+
+
+.freeSpace {
+    height: 50vh;
+    width: 100%;
+}
+
+
+.img-text h6 {
+    line-height: 15px;
+}
+
+.foot-text p {
+    line-height: 20px;
+    color: red;
+}
+
+.col-md-4 p span {
+    color: red;
+}
+
+.bao-img img {
+    width: 40%;
+}
+
+/* About section  */
+
+
+.about-heading {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about-heading h5 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+
+
+.haha {
+    background-color: #FFD4D4;
+}
+
+.hello {
+    padding: 0%;
+}
+
+.header h3 {
+    color: rgb(232, 80, 80);
+}
+
+.paragraph-1 p span {
+    color: rgb(232, 80, 80);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.card-body {
+    background-color: #FFD4D4;
+}
+
+.contact-image {
+    height: 100vh;
+}
+
+.contact-image p span {
+    color: rgb(232, 80, 80);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.cardContainer {
+    background-color: #FDE7E9;
+}
+
+.card-body-2 {
+    background-color: rgb(177, 174, 174);
+}
+
+.navbar {
+    z-index: 100;
+}
+
+
+
+
+
+/* MEDIA QUERY */
+
+@media only screen and (min-width: 990px) {
+    .navBar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    .navBar {
+        flex-direction: column;
+    }
+}
